@@ -1,10 +1,8 @@
 #pragma once
 
-namespace Nitreet
-{
-    class MyClass
-    {
+namespace Nitreet {
+    class MyClass {
     public:
-        static int foo(int a, int b);
+        static int add(int a, int b);
     };
 }

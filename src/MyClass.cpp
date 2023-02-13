@@ -1,9 +1,7 @@
 #include "MyClass.hpp"
 
-namespace Nitreet
-{
-    int MyClass::foo(int a, int b)
-    {
+namespace Nitreet {
+    int MyClass::add(int a, int b) {
         return a + b;
     }
 }
